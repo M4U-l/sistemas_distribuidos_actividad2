@@ -8,7 +8,7 @@ using UnityEngine.UI;
 
 public class APIManager : MonoBehaviour
 {
-    private string fakeApiUrl = "https://my-json-server.typicode.com/typicode/demo";
+    private string fakeApiUrl = "https://my-json-server.typicode.com/M4U-l/sistemas_distribuidos_actividad2";
 
     private string rickAndMortyApiUrl = "https://rickandmortyapi.com/api/character/";
 
