@@ -8,7 +8,7 @@ using UnityEngine.UI;
 
 public class APIManager : MonoBehaviour
 {
-    private string fakeApiUrl = "https://my-json-server.typicode.com/KennyM14/API_Activity";
+    private string fakeApiUrl = "https://my-json-server.typicode.com/typicode/demo";
 
     private string rickAndMortyApiUrl = "https://rickandmortyapi.com/api/character/";
 
@@ -27,7 +27,7 @@ public class APIManager : MonoBehaviour
     private void InitializeDropdown()
     {
         userDropDown.ClearOptions();
-        List<string> userNames = new List<string> { "Select a User", "Rayne", "Abel", "Lance"};
+        List<string> userNames = new List<string> { "Select a User", "Jacobo", "Mymeria", "Dobby"};
         userDropDown.AddOptions(userNames);
         userDropDown.value = 0; 
         userDropDown.onValueChanged.AddListener(SwitchUser);
